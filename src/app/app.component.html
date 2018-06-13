@@ -1,3 +1,25 @@
+<div>
+    <div>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div>
+                    <ul class="nav navbar-nav">
+                        <li routerLinkActive="active">
+                            <a routerLink="/td-form">TD-Form</a>
+                        </li>
+
+                        <li routerLinkActive="active">
+                            <a routerLink="/dd-form">DD-Form</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+</div>
+
 <div class="container">
-    <app-signup-form></app-signup-form>
+    <router-outlet></router-outlet>
 </div>
