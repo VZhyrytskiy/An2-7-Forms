@@ -1,8 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { NgForm } from '@angular/forms';
+import { FormsModule, NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-signup-form',
+  standalone: true,
+  imports: [FormsModule],
   templateUrl: './signup-form.component.html',
   styleUrls: ['./signup-form.component.css']
 })
